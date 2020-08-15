@@ -16,6 +16,31 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 }
 
+.myButton {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcf9fc;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #329423;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+	color: white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 p{
 	margin:0;
 	padding:0;
@@ -74,9 +99,11 @@ hr{
 
 .pad {padding: 130px 0px;}
 
-.parallax-one { background: url('../img/promo/p1.jpg') fixed 50%;}
-.parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/p2.jpg') fixed 50%;}
-.parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p3.jpg') fixed 50%;}
+.parallax-one { background: url('../img/promo/p1.jpeg') fixed 50%;}
+.parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/p2.jpeg') fixed 50%;}
+.parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p3.jpeg') fixed 50%;}
+
+
 
 /* 
  * Basic CSS ends 
