@@ -103,8 +103,10 @@ hr{
 	background: url('../img/promo/p1.jpeg') fixed 50%;
 	isolation: isolate;
 }
-.parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/p2.jpeg') fixed 50%;}
-.parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p3.jpeg') fixed 50%;}
+.parallax-two { 
+	background: url('../img/background/overlay.png'), url('../img/promo/p2.jpeg') fixed 50%;
+	isolation: isolate;
+}
 
 
 
