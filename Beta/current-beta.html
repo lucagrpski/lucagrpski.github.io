@@ -156,6 +156,7 @@
 						<hr>
 						<!-- paragraph -->
 						<p>Hier findest du alle Infos and Ankündigungen:</p>
+						</div>
 					</div>
 					<!-- info board -->
                     <br><br>
@@ -354,21 +355,15 @@
 			
 			<!-- footer -->
 			<footer>
-				<h2><span style="color:white"> Beta Tester </span></h2>
-				<h4><span style="color:white"> -------------------------- </span></h4>
-				<h4><span style="color:white"> Als Beta Tester kannst du alle Änderungen sehen, bevor sie offiziell hochgeladen sind </span></h4>
-				<br>
-				<a href="beta_login" class="myButton">Login</a>
-				&ensp;&ensp;
-				<a href="register" class="myButton">Registrierung</a>
-				<div>
-					<input type="checkbox" class="checkbox" id="chk" />
-					<label class="label" for="chk">
-						<i class="fas fa-moon"></i>
-						<i class="fas fa-sun"></i>
-						<div class="ball"></div>
-					</label>
-				</div>
+				<main class="darkmode-ignore">
+					<h2><span style="color:white"> Beta Tester </span></h2>
+					<h4><span style="color:white"> -------------------------- </span></h4>
+					<h4><span style="color:white"> Als Beta Tester kannst du alle Änderungen sehen, bevor sie offiziell hochgeladen sind </span></h4>
+					<br>
+					<a href="beta_login" class="myButton">Login</a>
+					&ensp;&ensp;
+					<a href="register" class="myButton">Registrierung</a>
+				
 			</footer>
 			<!-- footer end -->
 			<!-- Scroll to top -->
@@ -377,8 +372,26 @@
 		</div>
 		
 		<!-- Javascript files -->
-		<script src="js/darkmode.js"></script>
 		<!-- jQuery -->
+		<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+
+		<script>
+			var options = {
+			bottom: '10px', // default: '32px'
+			right: '80px', // default: '32px'
+			time: '0.5s', // default: '0.3s'
+			mixColor: '#fff', // default: '#fff'
+			backgroundColor: '#fff',  // default: '#fff'
+			buttonColorDark: '#100f2c',  // default: '#100f2c'
+			buttonColorLight: '#fff', // default: '#fff'
+			saveInCookies: true, // default: true,
+			label: '🌓',
+			autoMatchOsTheme: true // default: true
+			}
+			const darkmode = new Darkmode(options);
+			darkmode.showWidget();
+		</script>
+
 		<script src="js/jquery.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="js/bootstrap.min.js"></script>
