@@ -72,22 +72,3 @@ body,html{
     font-weight: 500;
     font-style: italic;
   }
-  .count{
-    margin: 40px 0;
-  }
-  .countd{
-    display: inline-block;
-    width: 80px;
-    height: 80px;
-    border: 2px solid;
-    margin: 0 30px;
-    font-size: 12px;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  .countd span{
-    display: block;
-    font-size: 26px;
-    margin-top: 14px;
-  }
-  
