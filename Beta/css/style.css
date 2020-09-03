@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
 
 body{
-	color: #252c37;
+	color: #063d74;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +38,6 @@ h1,h2,h3,h4,h5,h6{
 	position:relative;
 	top:1px;
 }
-
 
 
 p{

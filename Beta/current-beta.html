@@ -80,6 +80,12 @@
 								<li><a href="#kontakt">Kontakt</a></li>
 								<li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
 								<li><a class="hb-instagram" href="https://www.instagram.com/luca_grpski/"><i class="fa fa-instagram"></i></a></li> 
+								<li><a><div class="theme-switch-small">
+									<label class="theme-switch" for="checkbox">
+										<input type="checkbox" id="checkbox" />
+										<div class="slider round"></div>
+								  </label>
+								</li></a></div>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
@@ -169,20 +175,6 @@
 							<li>Meine Webseite hat eine neue Domain</li>
 						</h3></ul>
 					</div>
-					<!-- partial:index.partial.html -->
-					<div class="popup" id="popup-1">
-						<div class="overlay"></div>
-						<div class="content">
-						<div class="close-btn" onclick="togglePopup()">&times;</div>
-						<h1>Title</h1>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi animi accusantium alias inventore nulla atque debitis.</p>
-						</div>
-					</div>
-					
-					<button onclick="togglePopup()">Show Popup</button>
-					<!-- partial -->
-						<script  src="./script.js"></script>
-					
 				  </div>
 				</div>
 			</div>
@@ -374,14 +366,22 @@
 			
 			<!-- footer -->
 			<footer>
-				<main class="darkmode-ignore">
-					<h2><span style="color:white"> Beta Tester </span></h2>
-					<h4><span style="color:white"> -------------------------- </span></h4>
-					<h4><span style="color:white"> Als Beta Tester kannst du alle Änderungen sehen, bevor sie offiziell hochgeladen sind </span></h4>
-					<br>
-					<a href="beta_login" class="myButton">Login</a>
-					&ensp;&ensp;
-					<a href="register" class="myButton">Registrierung</a>
+				<h2><span style="color:white"> Beta Tester </span></h2>
+				<h4><span style="color:white"> -------------------------- </span></h4>
+				<h4><span style="color:white"> Als Beta Tester kannst du alle Änderungen sehen, bevor sie offiziell hochgeladen sind </span></h4>
+				<br>
+				<a href="beta_login" class="myButton">Login</a>
+				&ensp;&ensp;
+				<a href="register" class="myButton">Registrierung</a>
+				&ensp;&ensp;
+				<a><div class="theme-switch-wrapper">
+					<label class="theme-switch" for="checkbox">
+						<input type="checkbox" id="checkbox" />
+						<div class="slider round"></div>
+					</label>
+					<p>Wird noch animiert und ausgerichted</p>
+				</a></div>
+
 				
 			</footer>
 			<!-- footer end -->
@@ -391,25 +391,6 @@
 		</div>
 		
 		<!-- Javascript files -->
-		<!-- jQuery -->
-		<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
-
-		<script>
-			var options = {
-			bottom: '10px', // default: '32px'
-			right: '80px', // default: '32px'
-			time: '0.5s', // default: '0.3s'
-			mixColor: '#fff', // default: '#fff'
-			backgroundColor: '#fff',  // default: '#fff'
-			buttonColorDark: '#100f2c',  // default: '#100f2c'
-			buttonColorLight: '#fff', // default: '#fff'
-			saveInCookies: true, // default: true,
-			label: '🌓',
-			autoMatchOsTheme: true // default: true
-			}
-			const darkmode = new Darkmode(options);
-			darkmode.showWidget();
-		</script>
 
 		<script src="js/jquery.js"></script>
 
