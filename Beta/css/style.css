@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+
 p{
 	margin:0;
 	padding:0;
@@ -98,14 +99,9 @@ hr{
 
 .pad {padding: 130px 0px;}
 
-.parallax-one { 
-	background: url('../img/promo/p1.jpeg') fixed 50%;
-	isolation: isolate;
-}
-.parallax-two { 
-	background: url('../img/background/overlay.png'), url('../img/promo/p2.jpeg') fixed 50%;
-	isolation: isolate;
-}
+.parallax-one { background: url('../img/promo/p1.jpeg') fixed 50%;}
+.parallax-two { background: url('../img/background/overlay.png'), url('../img/promo/p2.jpeg') fixed 50%;}
+.parallax-three { background: url('../img/background/overlay.png'), url('../img/promo/p3.jpeg') fixed 50%;}
 
 
 
@@ -115,7 +111,6 @@ hr{
  
 /* header */
 /* navigation */
-
 
 .navbar {
 	margin-top: 40px;
@@ -1086,7 +1081,6 @@ hr{
 
 /* footer */
 footer {
-	isolation: isolate; 
 	padding-top: 50px;
 	padding-bottom: 30px;
 	background: #252c37;
