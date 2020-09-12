@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
