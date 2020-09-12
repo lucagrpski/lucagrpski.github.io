@@ -174,6 +174,7 @@
 							<li>Meine Webseite hat eine neue Domain</li>
 						</h3></ul>
 					</div>
+					<a href="chat/index.php" class="myButton">Login</a>
 				</div>
 			</div>
 			<!--/ hero end -->
@@ -326,11 +327,16 @@
 							<p class="form-line" data-type="control_button" id="id_2">
 							  <div id="cid_2" class="form-input-wide" data-layout="full">
 								<h4><div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
-								  <button id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+								  <button onclick="myFunction()" id="input_2" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
 									Absenden
 								  </button>
 								<h4></div>
 							  </div>
+							  <script>
+								function myFunction() {
+								alert("Erfolgreich abgesendet!");
+								}
+								</script>
 							</p>
 							<li style="display:none">
 							  Should be Empty:
@@ -368,7 +374,7 @@
 				<h4><span style="color:white"> -------------------------- </span></h4>
 				<h4><span style="color:white"> Als Beta Tester kannst du alle Änderungen sehen, bevor sie offiziell hochgeladen sind </span></h4>
 				<br>
-				<a href="beta_login" class="myButton">Login</a>
+				<a href="login" class="myButton">Login</a>
 				&ensp;&ensp;
 				<a href="register" class="myButton">Registrierung</a>
 			</footer>
