@@ -42,6 +42,12 @@ $('.message-submit').click(function() {
   insertMessage();
 });
 
+<button id="some_id">Visit Page Now</button>
+
+$('.exit').click(function() {
+  window.location='http://www.example.com';
+});
+
 $(window).on('keydown', function(e) {
   if (e.which == 13) {
     insertMessage();

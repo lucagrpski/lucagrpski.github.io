@@ -5,6 +5,7 @@
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
 
 <link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
 
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'>
@@ -77,6 +78,11 @@
   </div>
 
 </div>
+
+<div class="message-box">
+    <button type="exit" class="exit">Senden</button>
+  </div>
+
 <div class="bg"></div>
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
