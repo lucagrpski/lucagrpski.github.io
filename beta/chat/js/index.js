@@ -29,6 +29,14 @@ function updateScrollbar() {
   });
 }
 
+function setDate(){
+  d = new Date()
+  if (m != d.getMinutes()) {
+    m = d.getMinutes();
+    $('<div class="timestamp">' + d.getHours() + ':' + m + '</div>').appendTo($('.message:last'));
+  }
+}
+
 function insertMessage() {
   msg = $('.message-input').val();
   if ($.trim(msg) == '') {
@@ -40,12 +48,6 @@ function insertMessage() {
 
 $('.message-submit').click(function() {
   insertMessage();
-});
-
-<button id="some_id">Visit Page Now</button>
-
-$('.exit').click(function() {
-  window.location='http://www.example.com';
 });
 
 $(window).on('keydown', function(e) {
