@@ -1,4 +1,5 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
 
