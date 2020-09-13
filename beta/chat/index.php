@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
@@ -11,7 +12,6 @@
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
-
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
@@ -58,7 +58,6 @@
     border-radius: 5px;
   }
 </style>
-
 <div class="chat">
   <div class="chat-title">
     <h1>Live Chat</h1>
@@ -73,7 +72,7 @@
     <textarea type="text" class="message-input" id="message" placeholder="Schreib was nettes..."></textarea>
     <button type="submit" class="message-submit">Senden</button>
   </div>
-
+  
 </div>
 <div class="bg"></div>
 
