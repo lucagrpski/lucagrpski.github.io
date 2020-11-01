@@ -34,19 +34,6 @@
 	</head>
 	
 	<body>
-		
-		<!-- modal for booking ticket form -->
-		<div class="modal fade" id="bookTicket" tabindex="-1" role="dialog" aria-labelledby="BookTicket">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Name of The Event &nbsp; <small><span class="label label-success">Available</span> &nbsp; <span class="label label-danger">Not Available</span></small></h4>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 		<!-- wrapper -->
 		<div class="wrapper" id="home">
 		
@@ -72,13 +59,13 @@
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#neuerungen">Neuerungen</a></li>
-								<li><a href="#chat">Live Chat</a></li>
-								<li><a href="#kontakt">Kontakt</a></li>
-								<li><a href="#settings">Einstellungen</a></li>
-								<li><a href="instagram/index.html"><font color="red">Instagram</font></a></li>
-								<li><a href="discord/index.html"><font color="red">Discord</font></a></li>
+							<ul>
+							<?php 
+								session_start();
+								require_once("inc/config.inc.php");
+								require_once("inc/functions.inc.php");
+								include("templates/header.inc.php")
+								?>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
